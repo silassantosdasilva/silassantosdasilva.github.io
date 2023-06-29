@@ -42,13 +42,13 @@
                 <a href="#">Começar agora</a>
             </li>
             <li>
-                <a href="#">Academias</a>
+                <a href="#" id="Btn_txt-academia">Academias</a>
             </li>
             <li>
-                <a href="#">Espaço do cliente</a>
+                <a href="#" id="Btn_txt-planos">Planos</a>
             </li>
             <li>
-                <a href="#">Ajuda</a>
+                <a href="#" id="Btn_txt-localizacao">Localização</a>
             </li>
             <li class="logonav">
                 <a href="#"> <img src="/Img/NavBar/logonavbar.png" alt="LogoPrincipal"></a>
@@ -133,8 +133,9 @@
     <hr class="linha-horizontal">
     <section id="Novidades">
         <!--#region Novidades-->
+        <div>
         <ul class="text-coutch">
-            <h1>Conheça nossa equipe de <span class="cor-vermelho">Coutchs</span></h1>
+            <h1>Conheça nossa equipe de <span class="cor-vermelho">COACH</span></h1>
         </ul>
         <div class="card-video-coach container">
             <ul class="card-coach">
@@ -144,7 +145,7 @@
                     <h4>Visite uma das nossa unidades ou clique no botão Saiba mais </h4>
                     <hr>
                     <li class="Btn-vejamais-coach">
-                        <a href="#">Saiba Mais</a>
+                        <a href="#">Saiba mais</a>
                     </li>
                 </ul>
             </ul>
@@ -155,9 +156,9 @@
             <hr>
         </li>
         <ul class="card-img-novidade">
-            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1">
-            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1">
-            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1">
+            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1" class="card1">
+            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1" class="card2">
+            <img src="/Img/Cardnovidade/img-card/Card1.png" alt="card1" class="card3">
 
 
         </ul>
@@ -173,85 +174,129 @@
                 <h4>Academia totalmente atualizada</h4>
             </li>
         </ul>
-
+    </div>
         <!--#endregion-->
     </section>
 
     <section id="CardPlan">
         <div class="Card-plan">
-
-            <ul class="Card-plan1 container ">                
+           
+            <ul class="Card-plan1 container ">
+             
                 <li class="Colun-plano">
                     <h1>
                         Plano <br>
                         <span class="cor-vermelho">Mensal</span>
                     </h1>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur magnam sapiente tempore  </h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur
+                        magnam sapiente tempore </h4>
                 </li>
                 <hr>
                 <li class="Colun-valor">
                     <h1>R$<span>90,00<span class="cor-vermelho span-valor">Mes</span></span></h1>
                     <h4>Aproveite 20 dias gratis</h4>
                 </li>
-                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Veja mais</a></li>
+                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Saiba mais</a></li>
             </ul>
 
-            <ul class="Card-plan2 container ">               
+            <ul class="Card-plan2 container ">
                 <li class="Colun-plano2">
                     <h1>
                         Plano <br>
                         <span class="cor-vermelho">Trimestral</span>
                     </h1>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur magnam sapiente tempore  </h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur
+                        magnam sapiente tempore </h4>
                 </li>
                 <hr>
                 <li class="Colun-valor2">
                     <h1>R$<span>320,00<span class="cor-vermelho span-valor"></span></span></h1>
-                    <h4>Assine 3 meses e aproveiten 1 mes gratis</h4>
+                    <h4>Assine 3 meses e aproveite 1 mes gratis</h4>
                 </li>
-                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Veja mais</a></li>
+                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Saiba mais</a></li>
             </ul>
 
-            <ul class="Card-plan3 container ">               
+            <ul class="Card-plan3 container ">
                 <li class="Colun-plano3">
                     <h1>
                         Plano <br>
                         <span class="cor-vermelho">Anual</span>
                     </h1>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur magnam sapiente tempore  </h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut molestiae blanditiis consectetur
+                        magnam sapiente tempore </h4>
                 </li>
                 <hr>
                 <li class="Colun-valor3">
                     <h1>R$<span>620,00<span class="cor-vermelho span-valor">Ano</span></span></h1>
                     <h4>Promocional 2 mes gratis</h4>
                 </li>
-                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Veja mais</a></li>
+                <li class="Btn-vejamais-plan"><a href="#" class="Btn-vejamais">Saiba mais</a></li>
             </ul>
 
         </div>
     </section>
 
     <section id="Localizacao">
-<div class="Maps-busca-local">
-    <ul class="busca-localizacao container">
-        <li class="text-busca">
-            <h2>
-                Buscar academias proximas
-            </h2>
+
+       <ul class="Maps-busca-local">
+            <li class="text-busca">
+                <h2>
+                    Buscar academias proximas
+                </h2>
+            </li>
+           
+                <input type="text" value="" placeholder="Digite sua Localização" class="Btn-localizacao">
+        <li class="Btn-busca-localizacao">
+           <a href="#" id="Btnbuscar">Buscar</a>
         </li>
-        <li class="digite-local">
-            <input type="text" value=""  placeholder="Digite sua Localização" class="Btn-localizacao">
-        </li>
-        <li class="Btn-Buscar"><a href="#" id="Btnbuscar">Buscar</a></li>
-    </ul>
-    <ul class="maps" id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.378982525665!2d-46.527014423814315!3d-23.66240136531365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce427d61e40557%3A0xe0402eb4f1c6249a!2sR.%20Cel.%20Ab%C3%ADlio%20Soares%2C%20264%20-%20Centro%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009015-525!5e0!3m2!1spt-BR!2sbr!4v1687714424302!5m2!1spt-BR!2sbr" width="1460" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-    </ul>
-</div>
+            <li class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.378982525665!2d-46.527014423814315!3d-23.66240136531365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce427d61e40557%3A0xe0402eb4f1c6249a!2sR.%20Cel.%20Ab%C3%ADlio%20Soares%2C%20264%20-%20Centro%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009015-525!5e0!3m2!1spt-BR!2sbr!4v1687714424302!5m2!1spt-BR!2sbr"
+                    width="1100" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+        </ul>
 
     </section>
 
-    <section id="footer"></section>
+    <section id="footer">
+
+        <ul class="Footer-forteam">
+            <li class="links-footer">
+                <a href="#">Treinos</a>
+                <a href="#">Ajuda</a>
+                <a href="#">Sobre a Forteam</a>
+                <a href="#">Novidades</a>
+            </li>
+            <li class="text-app">
+
+                <h2> Baixe o aplicativo e acompanhe seus treino e receitas Fit </h2>
+                <a href="#" id="link-google"><img src="/Img/Footer/Googleplay.png" alt="Googleplay"></a>
+                <a href="#" id="link-appstore"><img src="/Img/Footer/AppStore.png" alt="AppStore"></a>
+            </li>
+            <a href="#"><img src="/Img/NavBar/logonavbar.png" alt="logonavbar" class="logo-footer"></a>
+            <span>
+                <hr>
+            </span>
+            <li class="Copy-tabalhe">
+                <a href="#">Trabalhe conosco</a>
+                <a href="#">Termos e Condições</a>
+                <a href="#">Portal de privacidade</a>
+                <a href="#">Contato</a>
+            </li>
+            <li class="Envia-email">
+                <h2>Fique por dentro das novidades</h2>
+
+                <input type="text" id="text-email" placeholder="Digite seu email">
+
+                <h4><input type="checkbox" id="checkbox-footer"> Aceito receber promoções da academia</h4>
+            <li class=""><a href="" id="Btn_enviar-email">Enviar</a></li>
+
+        </ul>
+
+
+
+    </section>
 
 
 
